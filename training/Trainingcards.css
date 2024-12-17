@@ -1,0 +1,145 @@
+.training_image {
+  width: 100%;
+  height: auto;
+}
+
+.text_content {
+  margin-top: 24px;
+}
+
+.training_header {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-top: 42px;
+  margin-bottom: 24px;
+}
+
+.training_paragraph {
+  font-size: 16px;
+  color: #ffffff;
+  margin-top: 42px;
+  margin-bottom: 24px;
+  max-width: 600px;
+  text-align: left;
+  line-height: 1.6;
+}
+
+.schedule_training {
+  font-size: 14px;
+  color: #a5ff00;
+  text-align: right;
+  margin-top: 42px;
+  margin-bottom: 24px;
+}
+
+@media (min-width: 1200px) {
+  .trainingcard {
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+
+  .card_content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 165px;
+    margin-bottom: 64px;
+  }
+
+  .left_image_layout {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 42px;
+  }
+
+  .training_image_left {
+    flex: 1;
+    margin-right: 24px;
+    max-width: 60%;
+  }
+
+  .right_image_layout {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 42px;
+  }
+
+  .training_image_right {
+    order: 2;
+    flex: 1;
+    margin-left: 24px;
+    max-width: 60%;
+  }
+
+  .text_content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    order: 1;
+    margin: 25px;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+
+  .training_paragraph {
+    margin-top: 0;
+    margin-bottom: 24px;
+    max-width: 600px;
+    text-align: left;
+    line-height: 1.6;
+  }
+
+  .schedule_training {
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+ @media (max-width: 1200px) {
+  .trainingcard {
+    padding-left: 24px;
+    padding-right: 24px; 
+  }
+
+  .left_image_layout,
+  .right_image_layout {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .training_header {
+    order: 1;
+    margin-top: 42px;
+    margin-bottom: 24px;
+  }
+
+  .training_image_left,
+  .training_image_right {
+    order: 2;
+    margin: 24px 0;
+  }
+
+  .training_paragraph {
+    order: 3;
+    margin-bottom: 24px;
+    max-width: 100%;
+  }
+
+  .schedule_training {
+    order: 4;
+    margin-top: 24px;
+    text-align: right;
+  }
+} 

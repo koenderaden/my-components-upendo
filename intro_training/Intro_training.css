@@ -1,0 +1,66 @@
+.training_title {
+  color: white;
+  font-size: 32px;
+  font-family: "area-normal", sans-serif;
+  font-weight: 700;
+  margin-top: 36px;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.training_text {
+  color: white;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+.trainingimage_meneer {
+  margin-top: 0;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 36px;
+}
+
+.training_content_container {
+  display: block;
+  margin-top: 72px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+@media (min-width: 1200px) {
+  .training_content_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+
+  .training_title {
+    font-size: 64px;
+    max-width: 1000px;
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+
+  .training_text {
+    flex: 1;
+    margin-right: 24px;
+    order: 1;
+  }
+
+  .trainingimage_meneer {
+    flex: 1;
+    display: block;
+    max-width: 90%;
+    margin-left: 24px;
+    order: 2;
+  }
+}
